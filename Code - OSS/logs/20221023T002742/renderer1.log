@@ -1,0 +1,48 @@
+[2022-10-23 00:27:53.890] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221023T002742/userDataSync.log Timed out while waiting for file to be created
+[2022-10-23 00:28:08.523] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221023T002742/userDataSync.log Timed out while waiting for file to be created
+[2022-10-23 11:03:48.011] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/adt/cf/mksequenced)
+[2022-10-23 11:08:30.031] [renderer1] [error] [Extension Host] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-10-23 11:08:30.033] [renderer1] [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (/usr/lib/code/out/bootstrap.js:1:398)
+	at process.emit (node:events:526:28)
+[2022-10-23 11:08:31.034] [renderer1] [error] spawn git ENOENT: Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-10-23 11:09:00.304] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221023T002742/userDataSync.log Timed out while waiting for file to be created
+[2022-10-23 11:09:50.302] [renderer1] [error] Error received from starting extension host (kind: LocalProcess)
+[2022-10-23 11:09:50.302] [renderer1] [error] The local extension host took longer than 60s to connect.
+[2022-10-23 11:19:01.134] [renderer1] [error] Unable to read file '/home/adt/mkratings/index.js' (Error: Unable to resolve nonexistent file '/home/adt/mkratings/index.js'): Error: Unable to read file '/home/adt/mkratings/index.js' (Error: Unable to resolve nonexistent file '/home/adt/mkratings/index.js')
+    at u.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:608:20129)
+    at async v.doRead (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2781:42787)
+    at async v.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2781:42462)
+    at async Rr.resolveFromFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2770:68542)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2781:36966
+[2022-10-23 13:50:17.678] [renderer1] [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+[2022-10-23 13:50:17.678] [renderer1] [error] Offline: Offline
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:70:9483)
+    at y.request (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:635:23512)
+    at G.queryRawGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:223339)
+    at async G.queryGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:220636)
+    at async ae (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:219606)
+    at async G.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:219846)
+    at async Mo.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3217:15078)
+    at async ue.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3213:18620)
+    at async ue.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3213:8251)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3213:6192
+[2022-10-23 13:50:19.581] [renderer1] [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Offline"}
+[2022-10-23 13:50:19.582] [renderer1] [error] Offline: Offline
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:70:9483)
+    at y.request (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:635:23512)
+    at G.queryRawGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:223339)
+    at async G.queryGalleryExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:220636)
+    at async ae (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:219606)
+    at async G.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:813:219846)
+    at async Mo.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3217:15078)
+    at async ue.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3213:18620)
+    at async ue.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3213:8251)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3213:6192
+[2022-10-23 15:29:37.078] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/adt/mkratings)

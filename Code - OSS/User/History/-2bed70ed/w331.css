@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Roboto";
+  src: url('/home/adt/development/mkratings/public/css/Roboto/Roboto-Bold.ttf') format("ttf")
+}
+
+body {
+ font-family: "Helvetica";
+ font-size: 30px;
+}
+
+p {
+
+}

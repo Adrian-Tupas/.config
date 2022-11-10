@@ -1,0 +1,9 @@
+[Trace 21:48:42.052] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/adt/cf/.Xmodmap
+[Trace 21:48:42.053] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/adt/cf/.Xmodmap
+[Trace 21:48:42.055] Server: connection.languages.diagnostics.on: file:///home/adt/cf/.Xmodmap
+[Trace 21:48:42.056] Server: connection.languages.diagnostics.on: file:///home/adt/cf/.Xmodmap
+[Trace 21:48:42.147] DocumentSymbolProvider: provideDocumentSymbols — file:///home/adt/cf/.Xmodmap 2
+[Debug 21:48:42.147] LinkProvider: compute - file:///home/adt/cf/.Xmodmap
+[Trace 21:48:42.148] DocumentSymbolProvider: provideDocumentSymbols — file:///home/adt/cf/.Xmodmap 2
+[Debug 21:48:42.207] TableOfContentsProvider: create - file:///home/adt/cf/.Xmodmap
+[Debug 21:48:42.302] MdFoldingProvider: provideFoldingRanges — file:///home/adt/cf/.Xmodmap 2

@@ -1,0 +1,19 @@
+[2022-10-28 12:21:08.576] [exthost] [info] Extension host with pid 4934 started
+[2022-10-28 12:21:08.576] [exthost] [info] Skipping acquiring lock for /home/adt/cf/.config/Code - OSS/User/workspaceStorage/40a9be5684cfd1912588694dd7619d65.
+[2022-10-28 12:21:08.701] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-10-28 12:21:08.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-28 12:21:08.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-28 12:21:08.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-28 12:21:08.702] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-10-28 12:21:08.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-10-28 12:21:08.820] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-28 12:21:08.820] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-28 12:21:08.938] [exthost] [info] Eager extensions activated
+[2022-10-28 12:21:08.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-28 12:21:08.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-28 12:21:09.038] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1208
+[2022-10-28 12:21:09.278] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1208
+[2022-10-28 12:25:14.605] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-28 12:25:14.672] [exthost] [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+[2022-10-28 12:25:14.681] [exthost] [info] Extension host with pid 4934 exiting with code 0

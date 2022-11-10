@@ -1,0 +1,27 @@
+[2022-10-23 00:27:44.160] [exthost] [info] Extension host with pid 10715 started
+[2022-10-23 00:27:44.233] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-23 00:27:44.234] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-23 00:27:44.234] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-23 00:27:44.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-23 00:27:44.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-23 00:27:44.347] [exthost] [info] Eager extensions activated
+[2022-10-23 00:27:44.373] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-23 00:27:44.373] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-23 00:27:57.680] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-23 00:27:57.688] [exthost] [info] Extension host with pid 10715 exiting with code 0
+[2022-10-23 00:27:58.643] [exthost] [info] Extension host with pid 10874 started
+[2022-10-23 00:27:58.643] [exthost] [info] Skipping acquiring lock for /home/adt/cf/.config/Code - OSS/User/workspaceStorage/0801db7c0aedcff3c67ecf23be8cce62.
+[2022-10-23 00:27:58.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-23 00:27:58.694] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-23 00:27:58.694] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-23 00:27:58.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-23 00:27:58.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-23 00:27:58.799] [exthost] [info] Eager extensions activated
+[2022-10-23 00:27:58.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-23 00:27:58.834] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-23 11:08:30.029] [exthost] [error] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-10-23 11:08:49.088] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-23 11:08:49.095] [exthost] [info] Extension host with pid 10874 exiting with code 0

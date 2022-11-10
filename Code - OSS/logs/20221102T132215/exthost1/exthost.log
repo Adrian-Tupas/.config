@@ -1,0 +1,39 @@
+[2022-11-02 13:22:17.318] [exthost] [info] Extension host with pid 20780 started
+[2022-11-02 13:22:17.375] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-11-02 13:22:17.376] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-11-02 13:22:17.376] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-11-02 13:22:17.376] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-11-02 13:22:17.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-11-02 13:22:17.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-11-02 13:22:17.507] [exthost] [info] Eager extensions activated
+[2022-11-02 13:22:17.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-02 13:22:17.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-02 13:27:05.811] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-11-02 13:27:05.817] [exthost] [info] Extension host with pid 20780 exiting with code 0
+[2022-11-02 13:27:07.548] [exthost] [info] Extension host with pid 22436 started
+[2022-11-02 13:27:07.548] [exthost] [info] Skipping acquiring lock for /home/adt/cf/.config/Code - OSS/User/workspaceStorage/a261184b5844cf7a82964a8dea6c1530.
+[2022-11-02 13:27:07.596] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-11-02 13:27:07.597] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-11-02 13:27:07.597] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-11-02 13:27:07.597] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-11-02 13:27:07.630] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-11-02 13:27:07.630] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-11-02 13:27:07.673] [exthost] [info] Eager extensions activated
+[2022-11-02 13:27:07.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-02 13:27:07.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-02 13:27:18.469] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-11-02 13:27:18.475] [exthost] [info] Extension host with pid 22436 exiting with code 0
+[2022-11-02 13:27:19.678] [exthost] [info] Extension host with pid 22534 started
+[2022-11-02 13:27:19.678] [exthost] [info] Skipping acquiring lock for /home/adt/cf/.config/Code - OSS/User/workspaceStorage/24109fe8484ff71f592a027e5cedea5f.
+[2022-11-02 13:27:19.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-11-02 13:27:19.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-11-02 13:27:19.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-11-02 13:27:19.722] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-11-02 13:27:19.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-11-02 13:27:19.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-11-02 13:27:19.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-11-02 13:27:20.028] [exthost] [info] Eager extensions activated
+[2022-11-02 13:27:20.031] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-02 13:27:20.031] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-11-02 13:35:05.121] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-11-02 13:35:05.132] [exthost] [info] Extension host with pid 22534 exiting with code 0

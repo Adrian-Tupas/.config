@@ -1,0 +1,4 @@
+[2022-10-24 13:56:01.329] [renderer1] [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {}
+[2022-10-24 13:56:06.184] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221024T135554/userDataSync.log Timed out while waiting for file to be created
+[2022-10-24 13:56:41.821] [renderer1] [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {}
+[2022-10-24 13:56:51.380] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221024T135554/userDataSync.log Timed out while waiting for file to be created

@@ -1,0 +1,4 @@
+[2022-10-29 20:10:52.950] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-10-29 20:10:54.456] [main] [info] Starting extension host with pid 6279 (fork() took 8 ms).
+[2022-10-29 20:13:46.174] [main] [info] Extension host with pid 6279 exited with code: 0, signal: null.
+[2022-10-29 20:13:47.354] [main] [info] Starting extension host with pid 7834 (fork() took 5 ms).

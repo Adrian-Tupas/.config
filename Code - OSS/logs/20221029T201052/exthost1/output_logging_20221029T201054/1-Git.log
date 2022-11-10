@@ -1,0 +1,67 @@
+[2022-10-30T03:10:55.067Z] Log level: Info
+[2022-10-30T03:10:55.068Z] [info] Validating found git in: git
+[2022-10-30T03:10:55.075Z] [info] Using git 2.38.1 from git
+[2022-10-30T03:10:55.087Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-30T03:10:55.087Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.097Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.097Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.110Z] > git rev-parse --show-toplevel [9ms]
+[2022-10-30T03:10:55.110Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.116Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.116Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.125Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.125Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.131Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.131Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.136Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.136Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.140Z] > git rev-parse --show-toplevel [0ms]
+[2022-10-30T03:10:55.140Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.145Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.145Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.149Z] > git rev-parse --show-toplevel [0ms]
+[2022-10-30T03:10:55.149Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.153Z] > git rev-parse --show-toplevel [0ms]
+[2022-10-30T03:10:55.153Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.160Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.160Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.165Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.165Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.169Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.169Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.173Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.173Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.177Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.177Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.181Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.181Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.188Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-30T03:10:55.188Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.192Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.192Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.196Z] > git rev-parse --show-toplevel [0ms]
+[2022-10-30T03:10:55.196Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.201Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.201Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.205Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:10:55.205Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.210Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-30T03:10:55.215Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-10-30T03:10:55.222Z] [info] Open repository: /home/adt/cf/dotfiles
+[2022-10-30T03:10:55.551Z] > git status -z -uall [324ms]
+[2022-10-30T03:10:55.556Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-30T03:10:55.561Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-10-30T03:10:55.569Z] > git remote --verbose [2ms]
+[2022-10-30T03:10:55.570Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-30T03:10:55.581Z] > git config --get commit.template [1ms]
+[2022-10-30T03:10:55.598Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-30T03:10:55.598Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-30T03:10:55.681Z] > git status -z -uall [96ms]
+[2022-10-30T03:10:55.685Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-30T03:10:55.688Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+[2022-10-30T03:10:55.695Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-10-30T03:10:55.696Z] > git remote --verbose [2ms]
+[2022-10-30T03:10:55.703Z] > git config --get commit.template [1ms]
+[2022-10-30T03:10:55.755Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-30T03:13:38.849Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-30T03:13:38.849Z] fatal: not a git repository (or any of the parent directories): .git

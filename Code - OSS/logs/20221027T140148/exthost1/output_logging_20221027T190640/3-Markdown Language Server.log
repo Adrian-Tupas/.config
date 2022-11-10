@@ -1,0 +1,21 @@
+[Trace 02:07:07.514] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:07.515] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:07.516] Server: connection.languages.diagnostics.on: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:07.517] Server: connection.languages.diagnostics.on: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:07.523] DocumentSymbolProvider: provideDocumentSymbols — file:///home/adt/development/mkratings/README.md 1
+[Debug 02:07:07.524] LinkProvider: compute - file:///home/adt/development/mkratings/README.md
+[Debug 02:07:07.610] TableOfContentsProvider: create - file:///home/adt/development/mkratings/README.md
+[Debug 02:07:07.719] MdFoldingProvider: provideFoldingRanges — file:///home/adt/development/mkratings/README.md 1
+[Trace 02:07:07.945] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:07.945] VsCodeClientWorkspace: deleteDocument: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:09.599] Server: connection.languages.diagnostics.on: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:09.642] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:09.643] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:09.643] Server: connection.languages.diagnostics.on: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:09.643] DocumentSymbolProvider: provideDocumentSymbols — file:///home/adt/development/mkratings/README.md 1
+[Debug 02:07:09.643] LinkProvider: compute - file:///home/adt/development/mkratings/README.md
+[Trace 02:07:09.646] Server: connection.languages.diagnostics.on: file:///home/adt/development/mkratings/README.md
+[Debug 02:07:09.647] TableOfContentsProvider: create - file:///home/adt/development/mkratings/README.md
+[Debug 02:07:09.803] MdFoldingProvider: provideFoldingRanges — file:///home/adt/development/mkratings/README.md 1
+[Trace 02:07:10.408] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/adt/development/mkratings/README.md
+[Trace 02:07:10.408] VsCodeClientWorkspace: deleteDocument: file:///home/adt/development/mkratings/README.md
