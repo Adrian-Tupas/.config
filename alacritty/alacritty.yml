@@ -102,7 +102,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Iosevka
+    family: Iosevka SS04
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
@@ -122,7 +122,7 @@ font:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
-    family: Iosevka
+    family: Iosevka SS04
     # value specified for the normal font.
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
@@ -143,7 +143,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Iosevka
+    family: Iosevka SS04
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
@@ -163,7 +163,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: RobotoMono Nerd Font
+    family: Iosevka SS04
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font

@@ -1,8 +1,0 @@
-[2022-10-29 20:11:04.623] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221029T201052/userDataSync.log Timed out while waiting for file to be created
-[2022-10-29 20:13:38.790] [renderer1] [error] Unable to read file '/home/adt/cf/.Xmodmap' (Error: File not modified since): Error: Unable to read file '/home/adt/cf/.Xmodmap' (Error: File not modified since)
-    at u.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:608:20076)
-    at async v.doRead (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2781:42787)
-    at async v.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2781:42462)
-    at async Rr.resolveFromFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2770:68542)
-    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2781:36966
-[2022-10-29 20:13:57.488] [renderer1] [error] Error while registering log channel file:///home/adt/cf/.config/Code%20-%20OSS/logs/20221029T201052/userDataSync.log Timed out while waiting for file to be created

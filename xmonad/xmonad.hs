@@ -347,8 +347,8 @@ myKeys c =
   , ("<XF86Search>", addName "Web search (dmscripts)"     $ spawn "dm-websearch")
   , ("<XF86Mail>", addName "Email client"                 $ runOrRaise "thunderbird" (resource =? "thunderbird"))
   , ("<XF86Calculator>", addName "Calculator"             $ runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
-  , ("<XF86MonBrightnessUp>", addName "Brightness up"     $ spawn "lux -a 5%")
-  , ("<XF86MonBrightnessDown>", addName "Brightness down" $ spawn "lux -s 2%")]
+  , ("<XF86MonBrightnessUp>", addName "Brightness up"     $ spawn "brightnessctl set +3%")
+  , ("<XF86MonBrightnessDown>", addName "Brightness down" $ spawn "brightnessctl set 2%-")]
 
 
 main :: IO ()

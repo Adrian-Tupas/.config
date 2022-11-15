@@ -1,5 +1,4 @@
 export PATH="$PATH:$HOME/.local/bin"
-export PATH="$PATH:$HOME/.cargo/bin"
 export SUDO_EDITOR="nvim"
 
 alias killorphans="sudo pacman -Qtdq | sudo pacman -Rns -"
@@ -10,6 +9,7 @@ function nodemons
 end
 
 alias emacs="emacs > /dev/null 2>&1"
+alias sudo="doas"
 
 alias conf="cd ~/.config/"
 alias home="cd ~/../"
