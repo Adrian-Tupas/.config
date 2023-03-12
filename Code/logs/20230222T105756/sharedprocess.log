@@ -1,0 +1,18 @@
+2023-02-22 10:57:58.943 [info] Starting worker process with pid 3598 (type: fileWatcher, window: 1).
+2023-02-22 10:57:59.122 [info] Deleted from disk glenn2223.live-sass /home/adt/dotfiles/.vscode/extensions/glenn2223.live-sass-5.5.1
+2023-02-22 10:57:59.202 [info] Deleted from disk vue.vscode-typescript-vue-plugin /home/adt/dotfiles/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.0.25
+2023-02-22 10:57:59.202 [info] Deleted from disk dbaeumer.vscode-eslint /home/adt/dotfiles/.vscode/extensions/dbaeumer.vscode-eslint-2.2.6
+2023-02-22 10:57:59.203 [info] Deleted from disk syler.sass-indented /home/adt/dotfiles/.vscode/extensions/syler.sass-indented-1.8.23
+2023-02-22 10:57:59.434 [info] Deleted from disk visualstudioexptteam.intellicode-api-usage-examples /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6
+2023-02-22 10:57:59.494 [info] Deleted from disk yandeu.five-server /home/adt/dotfiles/.vscode/extensions/yandeu.five-server-0.1.11
+2023-02-22 10:58:09.286 [info] Worker process with pid 3598 terminated normally (type: fileWatcher, window: 1).
+2023-02-22 10:58:09.806 [info] Starting worker process with pid 3699 (type: fileWatcher, window: 1).
+2023-02-22 10:58:22.863 [info] Worker process with pid 3699 terminated normally (type: fileWatcher, window: 1).
+2023-02-22 10:58:23.518 [info] Starting worker process with pid 3761 (type: fileWatcher, window: 1).
+2023-02-22 11:14:23.445 [info] Getting Manifest... justusadam.language-haskell
+2023-02-22 11:14:23.454 [info] Installing extension: justusadam.language-haskell
+2023-02-22 11:14:27.270 [info] Extension signature verification: justusadam.language-haskell. Verification status: Verified.
+2023-02-22 11:14:27.334 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.6eeaaaee-23c8-4ab5-b4c4-12dc2fb6dba3: justusadam.language-haskell
+2023-02-22 11:14:27.349 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/justusadam.language-haskell-3.6.0
+2023-02-22 11:14:27.351 [info] Extracting completed. justusadam.language-haskell
+2023-02-22 11:14:27.362 [info] Extension installed successfully: justusadam.language-haskell

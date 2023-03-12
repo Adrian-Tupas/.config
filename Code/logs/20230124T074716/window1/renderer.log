@@ -1,0 +1,35 @@
+2023-01-24 07:47:19.322 [info] Electron sandbox mode is enabled!
+2023-01-24 07:47:38.030 [info] [perf] Render performance baseline is 443ms
+2023-01-24 07:47:47.177 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-01-24 07:47:50.794 [error] Extension host (LocalProcess) terminated unexpectedly. No extensions were activated.
+2023-01-24 07:47:50.797 [info] Automatically restarting the extension host.
+2023-01-24 07:47:51.123 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-01-24 07:47:51.583 [error] WebSocket is not open: readyState 3 (CLOSED): Error: WebSocket is not open: readyState 3 (CLOSED)
+    at sendAfterClose (/usr/share/code/resources/app/node_modules.asar/ws/lib/websocket.js:763:17)
+    at WebSocket.send (/usr/share/code/resources/app/node_modules.asar/ws/lib/websocket.js:345:7)
+    at Chrome._enqueueCommand (/usr/share/code/resources/app/node_modules.asar/chrome-remote-interface/lib/chrome.js:281:18)
+    at /usr/share/code/resources/app/node_modules.asar/chrome-remote-interface/lib/chrome.js:87:22
+    at new Promise (<anonymous>)
+    at Chrome.send (/usr/share/code/resources/app/node_modules.asar/chrome-remote-interface/lib/chrome.js:86:20)
+    at Object.handler [as stop] (/usr/share/code/resources/app/node_modules.asar/chrome-remote-interface/lib/api.js:32:23)
+    at Object.stop (/usr/share/code/resources/app/node_modules.asar/v8-inspect-profiler/index.js:97:41)
+    at i.stopProfiling (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:37:49024)
+    at Object.call (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:25:5144)
+    at o.q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5407)
+    at o.p (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4891)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4291
+    at g.invoke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2029)
+    at v.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1667)
+    at MessagePort.x (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23892)
+2023-01-24 07:47:52.687 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+2023-01-24 07:47:58.641 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+2023-01-24 07:48:02.583 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-01-24 07:48:03.053 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-01-24 07:48:49.680 [info] Electron sandbox mode is enabled!
+2023-01-24 07:49:00.316 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+2023-01-24 07:49:10.072 [info] [perf] Render performance baseline is 336ms
+2023-01-24 07:49:14.303 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-01-24 07:49:19.269 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-01-24 07:49:34.098 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+2023-01-24 07:49:47.715 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}

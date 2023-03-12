@@ -1,0 +1,13 @@
+2023-01-25 10:23:11.836 [info] Electron sandbox mode is enabled!
+2023-01-25 10:23:13.962 [error] net::ERR_CERT_AUTHORITY_INVALID: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-01-25 10:23:14.449 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {}
+2023-01-25 10:23:15.394 [error] RequestService#request (browser) - error https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json {}
+2023-01-25 10:23:15.413 [error] net::ERR_CERT_AUTHORITY_INVALID: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-01-25 12:42:06.666 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-25 12:42:06.667 [info] Setting search error: XHR failed
+2023-01-25 12:42:06.736 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-25 12:42:06.736 [info] Setting search error: XHR failed

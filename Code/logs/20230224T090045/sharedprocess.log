@@ -1,0 +1,13 @@
+2023-02-24 09:00:54.033 [info] Starting worker process with pid 2517 (type: fileWatcher, window: 1).
+2023-02-24 09:00:57.712 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-24 09:00:59.381 [info] Getting Manifest... eamodio.gitlens
+2023-02-24 09:00:59.673 [info] Installing extension: eamodio.gitlens
+2023-02-24 09:01:03.293 [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-02-24 09:01:03.395 [info] Worker process with pid 2517 terminated normally (type: fileWatcher, window: 1).
+2023-02-24 09:01:03.397 [info] Starting worker process with pid 2582 (type: fileWatcher, window: 1).
+2023-02-24 09:01:24.482 [info] Extension signature verification: eamodio.gitlens. Verification status: Verified.
+2023-02-24 09:01:26.277 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.6a055e3c-a9b5-4d3c-8362-ca743b2d4b20: eamodio.gitlens
+2023-02-24 09:01:26.351 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/eamodio.gitlens-13.3.1
+2023-02-24 09:01:26.378 [info] Extracting completed. eamodio.gitlens
+2023-02-24 09:01:26.476 [info] Extension installed successfully: eamodio.gitlens
+2023-02-24 09:01:26.635 [info] Marked extension as uninstalled eamodio.gitlens-13.2.0

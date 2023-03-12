@@ -1,0 +1,5 @@
+2023-02-24 09:00:46.181 [info] update#setState idle
+2023-02-24 09:00:49.313 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-02-24 09:00:49.377 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2447]: successfully created
+2023-02-24 09:01:16.192 [info] update#setState checking for updates
+2023-02-24 09:01:16.210 [info] update#setState available for download

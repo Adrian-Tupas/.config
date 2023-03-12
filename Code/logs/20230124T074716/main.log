@@ -1,0 +1,18 @@
+2023-01-24 07:47:16.385 [info] update#setState idle
+2023-01-24 07:47:20.602 [info] UtilityProcess<1>: Creating new...
+2023-01-24 07:47:20.647 [info] UtilityProcess<1>: received spawn event.
+2023-01-24 07:47:46.395 [info] update#setState checking for updates
+2023-01-24 07:47:46.436 [info] update#setState available for download
+2023-01-24 07:47:46.584 [info] UtilityProcess<1>: Enabling inspect port on extension host with pid 1857.
+2023-01-24 07:47:46.876 [info] UtilityProcess<1>: Enabling inspect port on extension host with pid 1857.
+2023-01-24 07:47:49.848 [info] UtilityProcess<1>: received exit event with code 11.
+2023-01-24 07:47:49.849 [info] Extension host with pid 1857 exited with code: 11, signal: .
+2023-01-24 07:47:51.149 [info] UtilityProcess<2>: Creating new...
+2023-01-24 07:47:51.179 [info] UtilityProcess<2>: received spawn event.
+2023-01-24 07:48:00.614 [info] UtilityProcess<2>: Enabling inspect port on extension host with pid 2176.
+2023-01-24 07:48:48.626 [info] UtilityProcess<2>: received exit event with code 0.
+2023-01-24 07:48:48.627 [info] Extension host with pid 2176 exited with code: 0, signal: .
+2023-01-24 07:48:50.563 [info] UtilityProcess<3>: Creating new...
+2023-01-24 07:48:50.591 [info] UtilityProcess<3>: received spawn event.
+2023-01-24 07:49:13.955 [info] UtilityProcess<3>: Enabling inspect port on extension host with pid 2650.
+2023-01-24 07:49:14.026 [info] UtilityProcess<3>: Enabling inspect port on extension host with pid 2650.

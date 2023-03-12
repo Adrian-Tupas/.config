@@ -1,0 +1,81 @@
+2023-01-24 08:38:50.498 [info] Electron sandbox mode is enabled!
+2023-01-24 08:38:52.310 [error] net::ERR_CERT_AUTHORITY_INVALID: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-01-24 08:38:52.848 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {}
+2023-01-24 08:38:53.707 [error] RequestService#request (browser) - error https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json {}
+2023-01-24 08:38:53.742 [error] net::ERR_CERT_AUTHORITY_INVALID: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-01-24 08:39:06.534 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/adt/development/mkratings/server/server.js 
+2023-01-24 08:39:06.600 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+    at /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6/dist/extension.js:2:406156
+    at /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6/dist/extension.js:2:406450
+    at Immediate.<anonymous> (/home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6/dist/extension.js:2:406812)
+    at processImmediate (node:internal/timers:466:21)
+2023-01-24 08:39:06.984 [info] Electron sandbox mode is enabled!
+2023-01-24 08:39:08.277 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {}
+2023-01-24 08:39:08.461 [error] net::ERR_CERT_AUTHORITY_INVALID: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-01-24 08:39:09.728 [error] RequestService#request (browser) - error https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json {}
+2023-01-24 08:44:38.902 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 08:44:38.903 [info] Setting search error: XHR failed
+2023-01-24 08:44:38.971 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 08:44:38.972 [info] Setting search error: XHR failed
+2023-01-24 08:44:39.941 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 08:44:39.941 [info] Setting search error: XHR failed
+2023-01-24 08:44:40.011 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 08:44:40.012 [info] Setting search error: XHR failed
+2023-01-24 09:00:56.271 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:00:56.272 [info] Setting search error: XHR failed
+2023-01-24 09:00:56.337 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:00:56.337 [info] Setting search error: XHR failed
+2023-01-24 09:00:58.095 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:00:58.095 [info] Setting search error: XHR failed
+2023-01-24 09:00:58.096 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:00:58.096 [info] Setting search error: XHR failed
+2023-01-24 09:00:59.605 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:00:59.606 [info] Setting search error: XHR failed
+2023-01-24 09:00:59.679 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:00:59.680 [info] Setting search error: XHR failed
+2023-01-24 09:09:10.677 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:09:10.678 [info] Setting search error: XHR failed
+2023-01-24 09:09:10.746 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:09:10.746 [info] Setting search error: XHR failed
+2023-01-24 09:09:11.763 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:09:11.764 [info] Setting search error: XHR failed
+2023-01-24 09:09:11.826 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:09:11.826 [info] Setting search error: XHR failed
+2023-01-24 09:11:34.012 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:11:34.012 [info] Setting search error: XHR failed
+2023-01-24 09:11:34.078 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:11:34.078 [info] Setting search error: XHR failed
+2023-01-24 09:11:45.343 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:11:45.344 [info] Setting search error: XHR failed
+2023-01-24 09:11:45.405 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:11:45.406 [info] Setting search error: XHR failed
+2023-01-24 09:17:44.570 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:44.571 [info] Setting search error: XHR failed
+2023-01-24 09:17:44.601 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:44.601 [info] Setting search error: XHR failed
+2023-01-24 09:17:45.314 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:45.314 [info] Setting search error: XHR failed
+2023-01-24 09:17:45.356 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:45.356 [info] Setting search error: XHR failed
+2023-01-24 09:17:47.508 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:47.510 [info] Setting search error: XHR failed
+2023-01-24 09:17:47.544 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:47.544 [info] Setting search error: XHR failed
+2023-01-24 09:17:50.395 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:50.395 [info] Setting search error: XHR failed
+2023-01-24 09:17:50.438 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:50.438 [info] Setting search error: XHR failed
+2023-01-24 09:17:51.276 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:51.277 [info] Setting search error: XHR failed
+2023-01-24 09:17:51.315 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:51.315 [info] Setting search error: XHR failed
+2023-01-24 09:17:53.258 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:53.258 [info] Setting search error: XHR failed
+2023-01-24 09:17:53.291 [error] RequestService#request (browser) - error https://bingsettingssearch.trafficmanager.net/api/Search {}
+2023-01-24 09:17:53.292 [info] Setting search error: XHR failed

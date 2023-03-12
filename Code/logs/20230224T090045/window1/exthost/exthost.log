@@ -1,0 +1,34 @@
+2023-02-24 09:00:51.938 [info] Extension host with pid 2447 started
+2023-02-24 09:00:51.939 [info] Skipping acquiring lock for /home/adt/dotfiles/.config/Code/User/workspaceStorage/c88f42c22a0127c1911cb2290bba2ab3.
+2023-02-24 09:00:53.032 [info] ExtensionService#_doActivateExtension justusadam.language-haskell, startup: false, activationEvent: 'onLanguage:haskell'
+2023-02-24 09:00:53.058 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-24 09:00:53.091 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onCommand:type'
+2023-02-24 09:00:53.447 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-24 09:00:53.458 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-02-24 09:00:53.534 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-02-24 09:00:55.428 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-24 09:00:55.555 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-24 09:00:55.569 [info] ExtensionService#_doActivateExtension glenn2223.live-sass, startup: true, activationEvent: 'workspaceContains:**/*.s[ac]ss'
+2023-02-24 09:00:57.778 [info] Eager extensions activated
+2023-02-24 09:00:58.053 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-24 09:00:58.068 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-24 09:00:58.119 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-02-24 09:00:58.184 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-02-24 09:00:59.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2723
+2023-02-24 09:01:02.123 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-24 09:01:02.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2727
+2023-02-24 09:01:04.969 [warning] TextEditor is closed/disposed
+2023-02-24 09:01:05.164 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-24 09:01:26.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:03:32.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:03:37.433 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:03:44.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2708
+2023-02-24 09:03:50.058 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2708
+2023-02-24 09:03:55.314 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2708
+2023-02-24 09:04:00.599 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2708
+2023-02-24 09:04:22.332 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2708
+2023-02-24 09:04:27.640 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:04:32.954 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:04:38.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:04:43.502 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709
+2023-02-24 09:04:48.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2709

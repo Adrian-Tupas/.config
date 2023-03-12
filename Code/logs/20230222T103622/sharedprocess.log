@@ -1,0 +1,49 @@
+2023-02-22 10:36:25.585 [info] Starting worker process with pid 39353 (type: fileWatcher, window: 1).
+2023-02-22 10:36:28.942 [info] Getting Manifest... dbaeumer.vscode-eslint
+2023-02-22 10:36:28.945 [info] Getting Manifest... glenn2223.live-sass
+2023-02-22 10:36:28.948 [info] Getting Manifest... syler.sass-indented
+2023-02-22 10:36:28.951 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-02-22 10:36:28.953 [info] Getting Manifest... vue.vscode-typescript-vue-plugin
+2023-02-22 10:36:28.955 [info] Getting Manifest... yandeu.five-server
+2023-02-22 10:36:29.263 [info] Installing extension: dbaeumer.vscode-eslint
+2023-02-22 10:36:29.290 [info] Installing extension: vue.vscode-typescript-vue-plugin
+2023-02-22 10:36:29.323 [info] Installing extension: glenn2223.live-sass
+2023-02-22 10:36:29.324 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples
+2023-02-22 10:36:29.333 [info] Installing extension: yandeu.five-server
+2023-02-22 10:36:29.343 [info] Installing extension: syler.sass-indented
+2023-02-22 10:36:35.176 [info] Extension signature verification: syler.sass-indented. Verification status: Verified.
+2023-02-22 10:36:35.252 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.cb468262-d5bf-4698-932f-94d9ce5f4121: syler.sass-indented
+2023-02-22 10:36:35.262 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/syler.sass-indented-1.8.24
+2023-02-22 10:36:35.263 [info] Extracting completed. syler.sass-indented
+2023-02-22 10:36:35.275 [info] Extension installed successfully: syler.sass-indented
+2023-02-22 10:36:35.289 [info] Marked extension as uninstalled syler.sass-indented-1.8.23
+2023-02-22 10:36:47.506 [info] Extension signature verification: glenn2223.live-sass. Verification status: Verified.
+2023-02-22 10:36:47.556 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.9e29e83d-d43f-49c2-b1b0-c0122482eb72: glenn2223.live-sass
+2023-02-22 10:36:47.569 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/glenn2223.live-sass-6.0.2
+2023-02-22 10:36:47.571 [info] Extracting completed. glenn2223.live-sass
+2023-02-22 10:36:47.583 [info] Extension installed successfully: glenn2223.live-sass
+2023-02-22 10:36:47.589 [info] Extension signature verification: dbaeumer.vscode-eslint. Verification status: Verified.
+2023-02-22 10:36:47.610 [info] Marked extension as uninstalled glenn2223.live-sass-5.5.1
+2023-02-22 10:36:47.651 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.3e630acd-e3c0-4d12-8986-eca2ba38c888: dbaeumer.vscode-eslint
+2023-02-22 10:36:47.658 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0
+2023-02-22 10:36:47.660 [info] Extracting completed. dbaeumer.vscode-eslint
+2023-02-22 10:36:47.674 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2023-02-22 10:36:47.705 [info] Marked extension as uninstalled dbaeumer.vscode-eslint-2.2.6
+2023-02-22 10:36:48.537 [info] Extension signature verification: visualstudioexptteam.intellicode-api-usage-examples. Verification status: Verified.
+2023-02-22 10:36:48.680 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.e364e457-13df-43b1-9a36-bcd3dff41b24: visualstudioexptteam.intellicode-api-usage-examples
+2023-02-22 10:36:48.698 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+2023-02-22 10:36:48.700 [info] Extracting completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-02-22 10:36:48.713 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-02-22 10:36:48.733 [info] Marked extension as uninstalled visualstudioexptteam.intellicode-api-usage-examples-0.2.6
+2023-02-22 10:36:48.894 [info] Extension signature verification: vue.vscode-typescript-vue-plugin. Verification status: Verified.
+2023-02-22 10:36:48.910 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.8009a94b-a5e6-4411-9fc3-ef4680259dce: vue.vscode-typescript-vue-plugin
+2023-02-22 10:36:48.949 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.1.5
+2023-02-22 10:36:48.953 [info] Extracting completed. vue.vscode-typescript-vue-plugin
+2023-02-22 10:36:48.975 [info] Extension installed successfully: vue.vscode-typescript-vue-plugin
+2023-02-22 10:36:49.038 [info] Marked extension as uninstalled vue.vscode-typescript-vue-plugin-1.0.25
+2023-02-22 10:36:54.459 [info] Extension signature verification: yandeu.five-server. Verification status: Verified.
+2023-02-22 10:36:55.189 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.47918c2d-c738-4538-bc54-425fb5520832: yandeu.five-server
+2023-02-22 10:36:55.204 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/yandeu.five-server-0.1.12
+2023-02-22 10:36:55.205 [info] Extracting completed. yandeu.five-server
+2023-02-22 10:36:55.214 [info] Extension installed successfully: yandeu.five-server
+2023-02-22 10:36:55.232 [info] Marked extension as uninstalled yandeu.five-server-0.1.11

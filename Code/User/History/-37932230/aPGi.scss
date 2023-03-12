@@ -1,0 +1,50 @@
+$primary-color: #f8f9fc;
+$navbar-color: #282A35;
+$navbar-text-color: white;
+$default-font: Tahoma;
+
+body {
+    margin: 0;
+    background: $primary-color;
+    font-family: $default-font;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background: $navbar-color;    
+    color: $navbar-text-color;
+}
+
+li a {
+    float:left;
+    display: block;
+    color: $navbar-text-color;
+    padding-top: 2vh;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-bottom: 1.3vh;
+    border-bottom: 0.7vh;
+    font-size: 2vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: black;
+}
+
+li a.active {
+    border-bottom: 0.7vh solid rgb(11, 151, 11);
+}
+
+.graph {
+    margin-top: 6vh;
+}
+

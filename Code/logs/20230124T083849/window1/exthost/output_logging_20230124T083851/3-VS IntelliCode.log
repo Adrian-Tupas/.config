@@ -1,0 +1,5 @@
+Acquiring model 'intellisense-members' for javascript
+Querying IntelliCode service for available models.
+Couldn't reach service Error Message: self signed certificate, (Error)
+Could not reach the IntelliCode service. Checking the local model cache.
+Recent model was found in cache.

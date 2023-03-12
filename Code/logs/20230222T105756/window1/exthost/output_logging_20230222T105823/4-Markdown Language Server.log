@@ -1,0 +1,8 @@
+[Trace 19:12:23.382] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:12:23.382] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:12:23.384] Server: connection.languages.diagnostics.on: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:12:23.387] Server: connection.languages.diagnostics.on: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:12:23.588] Server: connection.languages.diagnostics.on: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:13:43.735] Server: connection.languages.diagnostics.on: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:13:43.784] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc
+[Trace 19:13:43.785] VsCodeClientWorkspace: deleteDocument: file:///home/adt/dotfiles/.config/xmobar/solarized-light-xmobarrc

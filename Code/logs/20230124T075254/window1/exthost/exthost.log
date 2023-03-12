@@ -1,0 +1,23 @@
+2023-01-24 07:52:55.924 [info] Extension host with pid 2331 started
+2023-01-24 07:52:55.924 [info] Skipping acquiring lock for /home/adt/dotfiles/.config/Code/User/workspaceStorage/bba594c0405cc6cf311a5e163933fbc7.
+2023-01-24 07:52:56.039 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 07:52:56.063 [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 07:52:56.098 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 07:52:56.188 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 07:52:56.264 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 07:52:56.305 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-24 07:52:56.330 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-24 07:52:56.333 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-01-24 07:52:56.360 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-24 07:52:56.488 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-01-24 07:52:56.714 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-24 07:52:56.758 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-24 07:52:56.898 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-24 07:52:56.942 [info] Eager extensions activated
+2023-01-24 07:52:57.072 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 07:52:57.075 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 07:52:57.083 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 07:52:57.100 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 07:52:57.115 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 07:52:57.375 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3426
+2023-01-24 07:52:58.376 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3426

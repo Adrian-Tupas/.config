@@ -1,0 +1,2 @@
+[2023-01-24 16:39:09.219] ClientRequest.<anonymous>
+FetchError: request to https://github.com/Adrian-Tupas/MapGraph failed, reason: self signed certificate

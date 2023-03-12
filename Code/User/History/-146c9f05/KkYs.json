@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Monochrome Dark Amplified",
+    "editor.bracketPairColorization.enabled": false,
+    "explorer.confirmDelete": false,
+      "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+],
+"editor.wordWrap": "on",
+"editor.fontSize": 18,
+"editor.fontFamily": "'Iosevka SS05'",
+"editor.lineNumbers": "relative"
+}

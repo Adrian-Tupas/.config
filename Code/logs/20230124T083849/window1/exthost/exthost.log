@@ -1,0 +1,87 @@
+2023-01-24 08:38:51.706 [info] Extension host with pid 1737 started
+2023-01-24 08:38:51.706 [info] Skipping acquiring lock for /home/adt/dotfiles/.config/Code/User/workspaceStorage/bba594c0405cc6cf311a5e163933fbc7.
+2023-01-24 08:38:51.846 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 08:38:51.874 [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 08:38:51.909 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 08:38:51.996 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 08:38:52.077 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 08:38:52.122 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-24 08:38:52.147 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-24 08:38:52.149 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-01-24 08:38:52.178 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-24 08:38:52.254 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-01-24 08:38:52.500 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-24 08:38:52.549 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-24 08:38:52.741 [info] Eager extensions activated
+2023-01-24 08:38:52.844 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:38:52.850 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:38:52.865 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:38:52.879 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:38:52.897 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:38:53.202 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-24 08:38:53.555 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3426
+2023-01-24 08:39:06.596 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2023-01-24 08:39:06.597 [error] Error: Unhandled method getIdAtPosition
+    at /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6/dist/extension.js:2:406156
+    at /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6/dist/extension.js:2:406450
+    at Immediate.<anonymous> (/home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6/dist/extension.js:2:406812)
+    at processImmediate (node:internal/timers:466:21)
+2023-01-24 08:39:06.606 [info] Extension host terminating: renderer closed the MessagePort
+2023-01-24 08:39:06.678 [info] Extension host with pid 1737 exiting with code 0
+2023-01-24 08:39:07.967 [info] Extension host with pid 2069 started
+2023-01-24 08:39:07.967 [info] Skipping acquiring lock for /home/adt/dotfiles/.config/Code/User/workspaceStorage/692b3a40487432a69f04bad3e7de253e.
+2023-01-24 08:39:08.206 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-24 08:39:08.223 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-24 08:39:08.225 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-01-24 08:39:08.239 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-01-24 08:39:08.292 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-01-24 08:39:08.341 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-24 08:39:08.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-24 08:39:08.418 [info] ExtensionService#_doActivateExtension glenn2223.live-sass, startup: true, activationEvent: 'workspaceContains:**/*.s[ac]ss'
+2023-01-24 08:39:08.844 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-24 08:39:08.861 [info] Eager extensions activated
+2023-01-24 08:39:08.883 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:39:08.885 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:39:08.890 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:39:08.899 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:39:08.910 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-01-24 08:39:12.343 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-01-24 08:39:12.436 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:html'
+2023-01-24 08:43:49.397 [warning] TextEditor is closed/disposed
+2023-01-24 08:43:49.511 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:properties'
+2023-01-24 08:43:50.048 [warning] TextEditor is closed/disposed
+2023-01-24 08:43:50.174 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2023-01-24 08:43:55.008 [warning] TextEditor is closed/disposed
+2023-01-24 08:43:58.008 [warning] TextEditor is closed/disposed
+2023-01-24 08:43:59.599 [warning] TextEditor is closed/disposed
+2023-01-24 08:43:59.758 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-24 08:43:59.767 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-24 08:43:59.782 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-01-24 08:44:09.009 [warning] TextEditor is closed/disposed
+2023-01-24 08:44:20.492 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-24 08:54:32.307 [warning] TextEditor is closed/disposed
+2023-01-24 08:54:37.067 [warning] TextEditor is closed/disposed
+2023-01-24 08:58:04.093 [warning] TextEditor is closed/disposed
+2023-01-24 08:58:11.665 [warning] TextEditor is closed/disposed
+2023-01-24 09:07:04.537 [warning] TextEditor is closed/disposed
+2023-01-24 09:07:17.528 [warning] TextEditor is closed/disposed
+2023-01-24 09:07:54.718 [warning] TextEditor is closed/disposed
+2023-01-24 09:09:19.477 [warning] TextEditor is closed/disposed
+2023-01-24 09:09:48.161 [warning] TextEditor is closed/disposed
+2023-01-24 09:11:00.844 [warning] TextEditor is closed/disposed
+2023-01-24 09:11:30.015 [warning] TextEditor is closed/disposed
+2023-01-24 09:11:31.169 [warning] TextEditor is closed/disposed
+2023-01-24 09:11:40.784 [warning] TextEditor is closed/disposed
+2023-01-24 09:12:58.148 [warning] TextEditor is closed/disposed
+2023-01-24 09:13:37.523 [warning] TextEditor is closed/disposed
+2023-01-24 09:13:59.649 [warning] TextEditor is closed/disposed
+2023-01-24 09:17:30.571 [warning] TextEditor is closed/disposed
+2023-01-24 09:17:41.702 [warning] TextEditor is closed/disposed
+2023-01-24 09:19:33.589 [warning] TextEditor is closed/disposed
+2023-01-24 13:00:57.245 [warning] TextEditor is closed/disposed
+2023-01-24 13:01:12.547 [warning] TextEditor is closed/disposed
+2023-01-24 13:01:12.696 [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 13:01:12.721 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 13:01:12.832 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-24 13:04:08.052 [warning] TextEditor is closed/disposed
+2023-01-24 14:22:00.143 [warning] TextEditor is closed/disposed

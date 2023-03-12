@@ -1,0 +1,72 @@
+2023-01-24 07:47:24.193 [info] Starting worker process with pid 1926 (type: fileWatcher, window: 1).
+2023-01-24 07:47:29.752 [info] Getting Manifest... christian-kohler.npm-intellisense
+2023-01-24 07:47:29.757 [info] Getting Manifest... christian-kohler.path-intellisense
+2023-01-24 07:47:29.763 [info] Getting Manifest... eamodio.gitlens
+2023-01-24 07:47:29.767 [info] Getting Manifest... redhat.vscode-yaml
+2023-01-24 07:47:29.773 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-01-24 07:47:29.777 [info] Getting Manifest... vue.vscode-typescript-vue-plugin
+2023-01-24 07:47:30.362 [info] Installing extension: vue.vscode-typescript-vue-plugin
+2023-01-24 07:47:30.369 [info] Installing extension: christian-kohler.path-intellisense
+2023-01-24 07:47:30.378 [info] Installing extension: redhat.vscode-yaml
+2023-01-24 07:47:30.386 [info] Installing extension: christian-kohler.npm-intellisense
+2023-01-24 07:47:30.467 [info] Installing extension: visualstudioexptteam.vscodeintellicode
+2023-01-24 07:47:30.866 [info] Installing extension: eamodio.gitlens
+2023-01-24 07:47:45.884 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.48deff17-5477-433e-b713-e764cb7ee386: vue.vscode-typescript-vue-plugin
+2023-01-24 07:47:45.914 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.0.25
+2023-01-24 07:47:45.941 [info] Extracting completed. vue.vscode-typescript-vue-plugin
+2023-01-24 07:47:46.014 [info] Extension installed successfully: vue.vscode-typescript-vue-plugin
+2023-01-24 07:47:46.228 [info] Marked extension as uninstalled vue.vscode-typescript-vue-plugin-1.0.12
+2023-01-24 07:47:46.740 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.918ba039-50d7-4a34-9a73-aea0b17d5de0: christian-kohler.path-intellisense
+2023-01-24 07:47:46.775 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/christian-kohler.path-intellisense-2.8.4
+2023-01-24 07:47:46.803 [info] Extracting completed. christian-kohler.path-intellisense
+2023-01-24 07:47:46.847 [info] Extension installed successfully: christian-kohler.path-intellisense
+2023-01-24 07:47:46.971 [info] Marked extension as uninstalled christian-kohler.path-intellisense-2.8.3
+2023-01-24 07:47:47.051 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.053099d0-5c57-46b2-bf12-5b3a771b425f: redhat.vscode-yaml
+2023-01-24 07:47:47.074 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/redhat.vscode-yaml-1.11.0
+2023-01-24 07:47:47.088 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.3d035576-94d8-44dc-9485-11efa64d2bf7: christian-kohler.npm-intellisense
+2023-01-24 07:47:47.092 [info] Extracting completed. redhat.vscode-yaml
+2023-01-24 07:47:47.116 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/christian-kohler.npm-intellisense-1.4.4
+2023-01-24 07:47:47.131 [info] Extension installed successfully: redhat.vscode-yaml
+2023-01-24 07:47:47.152 [info] Extracting completed. christian-kohler.npm-intellisense
+2023-01-24 07:47:47.481 [info] Extension installed successfully: christian-kohler.npm-intellisense
+2023-01-24 07:47:47.670 [info] Marked extension as uninstalled christian-kohler.npm-intellisense-1.4.3
+2023-01-24 07:47:47.672 [info] Marked extension as uninstalled redhat.vscode-yaml-1.10.1
+2023-01-24 07:47:51.078 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.d6ee8592-98e7-4731-90bc-0c90c27b4c68: eamodio.gitlens
+2023-01-24 07:47:51.181 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/eamodio.gitlens-13.2.0
+2023-01-24 07:47:51.194 [info] Extracting completed. eamodio.gitlens
+2023-01-24 07:47:51.297 [info] Extension installed successfully: eamodio.gitlens
+2023-01-24 07:47:52.219 [info] Marked extension as uninstalled eamodio.gitlens-13.1.1
+2023-01-24 07:48:07.133 [info] Getting Manifest... anotherglitchinthematrix.monochrome
+2023-01-24 07:48:07.248 [info] Installing extension: anotherglitchinthematrix.monochrome
+2023-01-24 07:48:15.066 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.7424f79b-4b72-4c83-ac67-f32c483ae752: anotherglitchinthematrix.monochrome
+2023-01-24 07:48:15.094 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/anotherglitchinthematrix.monochrome-2.4.3
+2023-01-24 07:48:15.102 [info] Extracting completed. anotherglitchinthematrix.monochrome
+2023-01-24 07:48:15.142 [info] Extension installed successfully: anotherglitchinthematrix.monochrome
+2023-01-24 07:48:25.643 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.7aff934b-a93b-4063-b4ff-a9e00e3b090e: visualstudioexptteam.vscodeintellicode
+2023-01-24 07:48:25.671 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2023-01-24 07:48:25.681 [info] Extracting completed. visualstudioexptteam.vscodeintellicode
+2023-01-24 07:48:25.717 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-01-24 07:48:25.849 [info] Marked extension as uninstalled visualstudioexptteam.vscodeintellicode-1.2.29
+2023-01-24 07:48:45.436 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 vscode-userdata:/home/adt/dotfiles/.vscode/extensions/extensions.json
+2023-01-24 07:48:45.696 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9
+2023-01-24 07:48:45.803 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 vscode-userdata:/home/adt/dotfiles/.vscode/extensions/extensions.json
+2023-01-24 07:48:48.637 [info] Worker process with pid 1926 terminated normally (type: fileWatcher, window: 1).
+2023-01-24 07:48:52.378 [info] Starting worker process with pid 2674 (type: fileWatcher, window: 1).
+2023-01-24 07:49:39.149 [info] Getting Manifest... yandeu.five-server
+2023-01-24 07:49:39.180 [info] Installing extension: yandeu.five-server
+2023-01-24 07:49:46.440 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.15774a27-dce9-4654-b67b-cc0fecd8af4c: yandeu.five-server
+2023-01-24 07:49:46.454 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/yandeu.five-server-0.1.11
+2023-01-24 07:49:46.463 [info] Extracting completed. yandeu.five-server
+2023-01-24 07:49:46.497 [info] Extension installed successfully: yandeu.five-server
+2023-01-24 07:49:57.947 [info] Getting Manifest... syler.sass-indented
+2023-01-24 07:49:57.974 [info] Installing extension: syler.sass-indented
+2023-01-24 07:49:59.815 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.89919ff4-8bd3-42ba-83aa-c841f3a99255: syler.sass-indented
+2023-01-24 07:49:59.829 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/syler.sass-indented-1.8.23
+2023-01-24 07:49:59.835 [info] Extracting completed. syler.sass-indented
+2023-01-24 07:49:59.866 [info] Extension installed successfully: syler.sass-indented
+2023-01-24 07:50:05.682 [info] Getting Manifest... glenn2223.live-sass
+2023-01-24 07:50:05.714 [info] Installing extension: glenn2223.live-sass
+2023-01-24 07:50:07.875 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.efebac29-1105-4e68-ae41-c97ccbc7fdb7: glenn2223.live-sass
+2023-01-24 07:50:07.896 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/glenn2223.live-sass-5.5.1
+2023-01-24 07:50:07.903 [info] Extracting completed. glenn2223.live-sass
+2023-01-24 07:50:07.932 [info] Extension installed successfully: glenn2223.live-sass

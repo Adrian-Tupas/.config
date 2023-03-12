@@ -1,0 +1,36 @@
+2023-01-24 07:52:56.835 [info] Log level: Info
+2023-01-24 07:52:56.835 [info] Validating found git in: "git"
+2023-01-24 07:52:56.875 [info] Using git "2.39.0" from "git"
+2023-01-24 07:52:56.919 [info] > git rev-parse --show-toplevel [38ms]
+2023-01-24 07:52:56.950 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2023-01-24 07:52:56.956 [info] Open repository: /home/adt/development/mkratings
+2023-01-24 07:52:56.973 [info] > git rev-parse --show-toplevel [7ms]
+2023-01-24 07:52:56.981 [info] > git config --get commit.template [8ms]
+2023-01-24 07:52:56.982 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-24 07:52:56.995 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-01-24 07:52:56.999 [info] Open repository: /home/adt/development/mkratings/client
+2023-01-24 07:52:57.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2023-01-24 07:52:57.029 [info] > git config --get commit.template [18ms]
+2023-01-24 07:52:57.030 [info] > git rev-parse --show-toplevel [24ms]
+2023-01-24 07:52:57.036 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2023-01-24 07:52:57.045 [warning] No remotes found in the git config file.
+2023-01-24 07:52:57.046 [info] > git rev-parse --show-toplevel [11ms]
+2023-01-24 07:52:57.048 [info] > git remote --verbose [3ms]
+2023-01-24 07:52:57.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-01-24 07:52:57.064 [info] > git status -z -uall [9ms]
+2023-01-24 07:52:57.065 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-24 07:52:57.221 [info] > git status -z -uall [200ms]
+2023-01-24 07:52:57.221 [info] > git config --get commit.template [17ms]
+2023-01-24 07:52:58.045 [warning] No remotes found in the git config file.
+2023-01-24 07:52:58.192 [info] > git check-ignore -v -z --stdin [16ms]
+2023-01-24 07:52:58.194 [info] > git config --get commit.template [141ms]
+2023-01-24 07:52:58.194 [info] > git remote --verbose [149ms]
+2023-01-24 07:52:58.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [155ms]
+2023-01-24 07:52:58.255 [info] > git check-ignore -v -z --stdin [69ms]
+2023-01-24 07:52:58.255 [info] > git status -z -uall [52ms]
+2023-01-24 07:52:58.257 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [47ms]
+2023-01-24 07:52:58.287 [info] > git show --textconv :server/server.js [21ms]
+2023-01-24 07:52:58.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-01-24 07:52:58.302 [info] > git ls-files --stage -- /home/adt/development/mkratings/server/server.js [28ms]
+2023-01-24 07:52:58.309 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2023-01-24 07:52:58.332 [info] > git status -z -uall [36ms]

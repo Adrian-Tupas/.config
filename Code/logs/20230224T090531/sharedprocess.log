@@ -1,0 +1,5 @@
+2023-02-24 09:05:33.017 [info] Starting worker process with pid 2434 (type: fileWatcher, window: 1).
+2023-02-24 09:05:33.405 [info] Deleted from disk eamodio.gitlens /home/adt/dotfiles/.vscode/extensions/eamodio.gitlens-13.2.0
+2023-02-24 15:36:04.084 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-24 15:36:47.155 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}
+2023-02-24 15:42:35.205 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}

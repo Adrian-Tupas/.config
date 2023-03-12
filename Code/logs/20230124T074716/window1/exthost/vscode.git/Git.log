@@ -1,0 +1,111 @@
+2023-01-24 07:47:37.733 [info] Log level: Info
+2023-01-24 07:47:37.733 [info] Validating found git in: "git"
+2023-01-24 07:47:37.733 [info] Using git "2.39.0" from "git"
+2023-01-24 07:47:37.734 [info] > git rev-parse --show-toplevel [452ms]
+2023-01-24 07:47:37.735 [info] > git rev-parse --git-dir --git-common-dir [267ms]
+2023-01-24 07:47:37.735 [info] Open repository: /home/adt/development/mkratings
+2023-01-24 07:47:38.648 [info] > git rev-parse --show-toplevel [3410ms]
+2023-01-24 07:47:40.629 [info] > git check-ignore -v -z --stdin [522ms]
+2023-01-24 07:47:40.748 [info] > git rev-parse --show-toplevel [2062ms]
+2023-01-24 07:47:40.808 [info] > git config --get commit.template [2257ms]
+2023-01-24 07:47:41.376 [info] > git rev-parse --git-dir --git-common-dir [573ms]
+2023-01-24 07:47:41.406 [info] Open repository: /home/adt/development/mkratings/client
+2023-01-24 07:47:41.645 [info] > git rev-parse --show-toplevel [201ms]
+2023-01-24 07:47:41.843 [info] > git rev-parse --show-toplevel [160ms]
+2023-01-24 07:47:41.940 [info] > git config --get commit.template [301ms]
+2023-01-24 07:47:41.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [343ms]
+2023-01-24 07:47:42.032 [info] > git show --textconv :server/server.js [134ms]
+2023-01-24 07:47:42.039 [info] > git ls-files --stage -- /home/adt/development/mkratings/server/server.js [103ms]
+2023-01-24 07:47:42.122 [warning] No remotes found in the git config file.
+2023-01-24 07:47:42.145 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [126ms]
+2023-01-24 07:47:42.182 [info] > git status -z -uall [198ms]
+2023-01-24 07:47:42.223 [info] > git remote --verbose [101ms]
+2023-01-24 07:47:42.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [137ms]
+2023-01-24 07:47:42.432 [info] > git status -z -uall [172ms]
+2023-01-24 07:47:42.433 [info] > git check-ignore -v -z --stdin [85ms]
+2023-01-24 07:47:42.442 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [144ms]
+2023-01-24 07:47:46.638 [info] > git config --get commit.template [590ms]
+2023-01-24 07:47:46.639 [info] > git config --get commit.template [627ms]
+2023-01-24 07:47:47.379 [warning] No remotes found in the git config file.
+2023-01-24 07:47:47.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2023-01-24 07:47:48.544 [info] > git remote --verbose [1165ms]
+2023-01-24 07:47:48.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1198ms]
+2023-01-24 07:47:56.101 [info] Log level: Info
+2023-01-24 07:47:56.101 [info] Validating found git in: "git"
+2023-01-24 07:47:56.101 [info] Using git "2.39.0" from "git"
+2023-01-24 07:47:56.101 [info] > git rev-parse --show-toplevel [19ms]
+2023-01-24 07:47:56.233 [info] > git rev-parse --git-dir --git-common-dir [139ms]
+2023-01-24 07:47:56.268 [info] Open repository: /home/adt/development/mkratings
+2023-01-24 07:47:56.509 [info] > git rev-parse --show-toplevel [215ms]
+2023-01-24 07:47:56.542 [info] > git config --get commit.template [36ms]
+2023-01-24 07:47:56.548 [info] > git rev-parse --show-toplevel [15ms]
+2023-01-24 07:47:56.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2023-01-24 07:47:56.759 [info] > git rev-parse --git-dir --git-common-dir [178ms]
+2023-01-24 07:47:56.794 [info] Open repository: /home/adt/development/mkratings/client
+2023-01-24 07:47:56.919 [info] > git status -z -uall [245ms]
+2023-01-24 07:47:56.921 [info] > git rev-parse --show-toplevel [91ms]
+2023-01-24 07:47:56.956 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [198ms]
+2023-01-24 07:47:57.004 [info] > git config --get commit.template [133ms]
+2023-01-24 07:48:03.012 [info] > git rev-parse --show-toplevel [6059ms]
+2023-01-24 07:48:03.474 [warning] No remotes found in the git config file.
+2023-01-24 07:48:03.501 [info] > git ls-files --stage -- /home/adt/development/mkratings/server/server.js [315ms]
+2023-01-24 07:48:03.508 [info] > git config --get commit.template [762ms]
+2023-01-24 07:48:03.687 [info] > git remote --verbose [214ms]
+2023-01-24 07:48:03.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [249ms]
+2023-01-24 07:48:04.419 [info] > git status -z -uall [696ms]
+2023-01-24 07:48:04.420 [info] > git show --textconv :server/server.js [613ms]
+2023-01-24 07:48:04.426 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [668ms]
+2023-01-24 07:48:04.507 [info] > git check-ignore -v -z --stdin [153ms]
+2023-01-24 07:48:04.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [114ms]
+2023-01-24 07:48:06.011 [info] > git status -z -uall [1466ms]
+2023-01-24 07:48:06.012 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1429ms]
+2023-01-24 07:48:06.015 [info] > git config --get commit.template [1512ms]
+2023-01-24 07:48:11.996 [warning] No remotes found in the git config file.
+2023-01-24 07:48:12.250 [info] > git remote --verbose [254ms]
+2023-01-24 07:48:12.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [291ms]
+2023-01-24 07:48:12.574 [info] > git status -z -uall [280ms]
+2023-01-24 07:48:12.577 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [228ms]
+2023-01-24 07:48:27.353 [info] > git check-ignore -v -z --stdin [20ms]
+2023-01-24 07:48:27.354 [info] > git check-ignore -v -z --stdin [4ms]
+2023-01-24 07:49:09.224 [info] Log level: Info
+2023-01-24 07:49:09.225 [info] Validating found git in: "git"
+2023-01-24 07:49:09.225 [info] Using git "2.39.0" from "git"
+2023-01-24 07:49:09.225 [info] > git rev-parse --show-toplevel [402ms]
+2023-01-24 07:49:09.225 [info] > git rev-parse --git-dir --git-common-dir [42ms]
+2023-01-24 07:49:09.225 [info] Open repository: /home/adt/development/mkratings
+2023-01-24 07:49:09.225 [info] > git config --get commit.template [61ms]
+2023-01-24 07:49:09.225 [info] > git rev-parse --show-toplevel [99ms]
+2023-01-24 07:49:09.225 [info] > git rev-parse --show-toplevel [98ms]
+2023-01-24 07:49:09.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [88ms]
+2023-01-24 07:49:09.225 [info] > git rev-parse --git-dir --git-common-dir [91ms]
+2023-01-24 07:49:09.225 [info] Open repository: /home/adt/development/mkratings/client
+2023-01-24 07:49:09.225 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [160ms]
+2023-01-24 07:49:09.225 [info] > git status -z -uall [204ms]
+2023-01-24 07:49:09.225 [info] > git config --get commit.template [46ms]
+2023-01-24 07:49:09.225 [info] > git rev-parse --show-toplevel [114ms]
+2023-01-24 07:49:09.225 [info] > git rev-parse --show-toplevel [4007ms]
+2023-01-24 07:49:09.225 [warning] No remotes found in the git config file.
+2023-01-24 07:49:09.225 [info] > git config --get commit.template [394ms]
+2023-01-24 07:49:09.225 [info] > git remote --verbose [1606ms]
+2023-01-24 07:49:09.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1647ms]
+2023-01-24 07:49:09.225 [info] > git status -z -uall [1194ms]
+2023-01-24 07:49:09.225 [info] > git check-ignore -v -z --stdin [249ms]
+2023-01-24 07:49:09.225 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1259ms]
+2023-01-24 07:49:09.263 [info] > git show --textconv :server/server.js [113ms]
+2023-01-24 07:49:09.264 [info] > git ls-files --stage -- /home/adt/development/mkratings/server/server.js [84ms]
+2023-01-24 07:49:09.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [490ms]
+2023-01-24 07:49:09.474 [info] > git status -z -uall [164ms]
+2023-01-24 07:49:09.475 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [123ms]
+2023-01-24 07:49:09.475 [info] > git config --get commit.template [219ms]
+2023-01-24 07:49:12.767 [warning] No remotes found in the git config file.
+2023-01-24 07:49:12.962 [info] > git remote --verbose [196ms]
+2023-01-24 07:49:12.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [220ms]
+2023-01-24 07:49:13.152 [info] > git status -z -uall [157ms]
+2023-01-24 07:49:13.155 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [122ms]
+2023-01-24 07:50:11.595 [info] > git check-ignore -v -z --stdin [31ms]
+2023-01-24 07:50:11.598 [info] > git check-ignore -v -z --stdin [6ms]
+2023-01-24 07:50:13.828 [info] > git check-ignore -v -z --stdin [2ms]
+2023-01-24 07:50:55.606 [info] > git config --get commit.template [17ms]
+2023-01-24 07:50:55.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-01-24 07:50:55.638 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-24 07:50:55.659 [info] > git status -z -uall [38ms]

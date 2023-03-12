@@ -1,0 +1,14 @@
+[2023-02-22 18:58:24.529] ClientRequest.<anonymous>
+FetchError: request to https://github.com/Adrian-Tupas/.config failed, reason: connect ECONNREFUSED 172.17.63.244:443
+[2023-02-22 19:00:56.197] [GIT  ] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 631,631:xmonad/xmonad.hs • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 631,631:xmonad/xmonad.hs • file xmonad/xmonad.hs has only 392 lines • 18 ms
+
+[2023-02-22 19:01:10.103] [GIT  ] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 438,438:xmonad/xmonad.hs • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 438,438:xmonad/xmonad.hs • file xmonad/xmonad.hs has only 392 lines • 18 ms
+
+[2023-02-22 19:03:01.676] [GIT  ] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 655,655:xmonad/xmonad.hs • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 655,655:xmonad/xmonad.hs • file xmonad/xmonad.hs has only 392 lines • 18 ms
+
+[2023-02-22 19:03:03.932] [GIT  ] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 657,657:xmonad/xmonad.hs • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 657,657:xmonad/xmonad.hs • file xmonad/xmonad.hs has only 392 lines • 18 ms
+
+[2023-02-22 19:08:16.149] [GIT  ] [/home/adt/dotfiles/.config] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- xmonad/xmonad.hs • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- xmonad/xmonad.hs • bad revision '0000000000000000000000000000000000000000-' • 16 ms
+
+[2023-02-22 19:16:56.397] [GIT  ] [/home/adt/dotfiles/.config] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- xmonad/xmonad.hs • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- xmonad/xmonad.hs • bad revision '0000000000000000000000000000000000000000-' • 16 ms
+

@@ -1,0 +1,111 @@
+[2023-02-24 17:05:33.871] [     16ms] [/home/adt/dotfiles/.config/xmobar] git rev-parse --show-toplevel
+[2023-02-24 17:05:33.879] [     58ms] [/home/adt/dotfiles/.config] git rev-parse --show-toplevel
+[2023-02-24 17:05:33.901] [      9ms] [/home/adt/dotfiles/.config] git rev-parse --show-toplevel
+[2023-02-24 17:05:34.022] [     27ms] [/home/adt/dotfiles/.config] git rev-parse --git-dir --git-common-dir
+[2023-02-24 17:05:34.022] [     17ms] [/home/adt/dotfiles/.config] git rev-parse --git-dir --git-common-dir (waited)
+[2023-02-24 17:05:34.272] [    263ms] [/home/adt/dotfiles/.config] git ls-files -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:05:34.273] [    267ms] [/home/adt/dotfiles/.config] git remote -v
+[2023-02-24 17:05:34.310] [     25ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:05:34.341] [     31ms] [/home/adt/dotfiles/.config] git config --get-regex ^user\.
+[2023-02-24 17:05:34.351] [      9ms] [/home/adt/dotfiles/.config] git check-mailmap Adrian Tupas <adriantupas@gmail.com>
+[2023-02-24 17:05:34.846] [     21ms] [/home/adt/dotfiles/.config] git remote -v
+[2023-02-24 17:05:34.961] [     16ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:05:34.961] [     23ms] [/home/adt/dotfiles/.config] git remote -v
+[2023-02-24 17:05:34.978] [     33ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:05:34.980] [     25ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:05:42.340] [     19ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 66,66:xmobar/tomorrow-night-xmobarrc b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:05:50.598] [     18ms] [/home/adt/dotfiles/.config] git ls-files -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:06:10.072] [     10ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:06:10.590] [      9ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 66,66:xmobar/tomorrow-night-xmobarrc b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:06:11.478] [     15ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:06:11.479] [     16ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:06:11.481] [      8ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:06:38.605] [     17ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:07:49.388] [     19ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:07:50.210] [     23ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:07:50.210] [     24ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:07:50.213] [     14ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:07:53.864] [     14ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 66,66:xmobar/tomorrow-night-xmobarrc b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:08:31.128] [     18ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:08:31.918] [     10ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 66,66:xmobar/tomorrow-night-xmobarrc b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:08:33.299] [      7ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:08:33.814] [     10ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 66,66:xmobar/tomorrow-night-xmobarrc b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:08:59.323] [     38ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:08:59.324] [     39ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:08:59.327] [     17ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:10:44.979] [     16ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:10:45.509] [     18ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 16,16:xmobar/tomorrow-night-xmobarrc b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:10:48.359] [     26ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:10:48.359] [     27ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:10:48.362] [     15ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:10:54.930] [     19ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:10:55.476] [     39ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:10:55.476] [     40ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:10:55.480] [     17ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:03.215] [     16ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:04.094] [     23ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:04.094] [     24ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:11:04.098] [     15ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:09.420] [     12ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:09.964] [     40ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:09.964] [     41ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:11:09.967] [     16ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmobar/tomorrow-night-xmobarrc
+[2023-02-24 17:11:10.106] [      7ms] [/home/adt/dotfiles/.config] git ls-files -- xmonad/xmonad.hs
+[2023-02-24 17:11:10.385] [     14ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:11:10.897] [      7ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:11:35.371] [     34ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:11:35.371] [     36ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:11:35.373] [     11ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:12:04.503] [     15ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:12:05.295] [     15ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:12:05.295] [     15ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:12:05.296] [      7ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:12:17.543] [      8ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:13:14.281] [     15ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:13:15.101] [     40ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:13:15.102] [     41ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:13:15.106] [     18ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:13:32.637] [     10ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:14:37.552] [     12ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:14:38.072] [     10ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:15:03.036] [     22ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:15:03.819] [     11ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:15:12.398] [     27ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:15:12.399] [     28ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:15:12.401] [     14ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:15:17.832] [     12ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:15:18.639] [     27ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:15:18.639] [     28ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:15:18.640] [     10ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:15:22.746] [     13ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:15:50.345] [     20ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:15:58.483] [     18ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:15:58.483] [     19ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:15:58.485] [      9ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:16:28.455] [      9ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:16:39.642] [     19ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:16:40.442] [     23ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:16:40.442] [     24ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:16:40.444] [     11ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:18:02.664] [     15ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:18:03.475] [     34ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:18:03.475] [     35ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:18:03.479] [     17ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:18:06.694] [     11ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:18:20.134] [     16ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:18:20.917] [      8ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:18:27.106] [     18ms] [/home/adt/dotfiles/.config] git blame --root --incremental -- xmonad/xmonad.hs
+[2023-02-24 17:18:27.890] [     11ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:18:33.646] [     32ms] [/home/adt/dotfiles/.config] git log -M -n1 --format=%H b50f52658f466b461792a8ecaaf465f5ba42f490^ -- xmonad/xmonad.hs
+[2023-02-24 17:18:33.646] [     33ms] [/home/adt/dotfiles/.config] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 b50f52658f466b461792a8ecaaf465f5ba42f490 --
+[2023-02-24 17:18:33.647] [     11ms] [/home/adt/dotfiles/.config] git rev-parse --verify --end-of-options b50f52658f466b461792a8ecaaf465f5ba42f490^:./xmonad/xmonad.hs
+[2023-02-24 17:21:33.521] [      8ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:21:34.032] [      7ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:22:03.611] [     11ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:22:04.132] [     14ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:24:11.031] [     13ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:24:11.553] [     13ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:24:57.991] [     26ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:24:58.512] [     14ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490
+[2023-02-24 17:25:38.652] [     12ms] [/home/adt/dotfiles/.config] git blame --root --incremental --contents - -- xmonad/xmonad.hs
+[2023-02-24 17:25:39.178] [     15ms] [/home/adt/dotfiles/.config] git log --format=%x3cr%x3e%x20%H -n3 -m -L 22,22:xmonad/xmonad.hs b50f52658f466b461792a8ecaaf465f5ba42f490

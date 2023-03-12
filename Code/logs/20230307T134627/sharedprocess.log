@@ -1,0 +1,42 @@
+2023-03-07 13:46:29.012 [info] Starting worker process with pid 2446 (type: fileWatcher, window: 1).
+2023-03-07 13:46:32.225 [info] Getting Manifest... eamodio.gitlens
+2023-03-07 13:46:32.227 [info] Getting Manifest... glenn2223.live-sass
+2023-03-07 13:46:32.228 [info] Getting Manifest... syler.sass-indented
+2023-03-07 13:46:32.230 [info] Getting Manifest... vscodevim.vim
+2023-03-07 13:46:32.232 [info] Getting Manifest... vue.vscode-typescript-vue-plugin
+2023-03-07 13:46:32.404 [info] Installing extension: eamodio.gitlens
+2023-03-07 13:46:32.540 [info] Installing extension: vue.vscode-typescript-vue-plugin
+2023-03-07 13:46:32.547 [info] Installing extension: glenn2223.live-sass
+2023-03-07 13:46:32.548 [info] Installing extension: vscodevim.vim
+2023-03-07 13:46:32.566 [info] Installing extension: syler.sass-indented
+2023-03-07 13:46:37.968 [info] Extension signature verification: syler.sass-indented. Verification status: Verified.
+2023-03-07 13:46:37.995 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.1aacb020-b2f8-4b96-9d0e-1687b3442e73: syler.sass-indented
+2023-03-07 13:46:38.000 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/syler.sass-indented-1.8.25
+2023-03-07 13:46:38.001 [info] Extracting completed. syler.sass-indented
+2023-03-07 13:46:38.011 [info] Extension installed successfully: syler.sass-indented
+2023-03-07 13:46:38.024 [info] Marked extension as uninstalled syler.sass-indented-1.8.24
+2023-03-07 13:46:39.808 [info] Extension signature verification: glenn2223.live-sass. Verification status: Verified.
+2023-03-07 13:46:39.836 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.00ca09ce-ba05-4fdf-b60b-d06dbf8fadcc: glenn2223.live-sass
+2023-03-07 13:46:39.845 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/glenn2223.live-sass-6.0.3
+2023-03-07 13:46:39.846 [info] Extracting completed. glenn2223.live-sass
+2023-03-07 13:46:39.855 [info] Extension installed successfully: glenn2223.live-sass
+2023-03-07 13:46:39.876 [info] Marked extension as uninstalled glenn2223.live-sass-6.0.2
+2023-03-07 13:46:43.586 [info] Extension signature verification: vscodevim.vim. Verification status: Verified.
+2023-03-07 13:46:43.627 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.32eb62f9-075e-450a-80d7-9bd3e8a21602: vscodevim.vim
+2023-03-07 13:46:43.636 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/vscodevim.vim-1.25.2
+2023-03-07 13:46:43.637 [info] Extracting completed. vscodevim.vim
+2023-03-07 13:46:43.645 [info] Extension installed successfully: vscodevim.vim
+2023-03-07 13:46:43.658 [info] Marked extension as uninstalled vscodevim.vim-1.24.3
+2023-03-07 13:46:50.767 [info] Extension signature verification: vue.vscode-typescript-vue-plugin. Verification status: Verified.
+2023-03-07 13:46:50.782 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.539a119f-65fc-4206-8064-7c2c18ad5017: vue.vscode-typescript-vue-plugin
+2023-03-07 13:46:50.794 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/vue.vscode-typescript-vue-plugin-1.2.0
+2023-03-07 13:46:50.795 [info] Extracting completed. vue.vscode-typescript-vue-plugin
+2023-03-07 13:46:50.806 [info] Extension installed successfully: vue.vscode-typescript-vue-plugin
+2023-03-07 13:46:50.820 [info] Marked extension as uninstalled vue.vscode-typescript-vue-plugin-1.1.5
+2023-03-07 13:47:27.347 [info] Extension signature verification: eamodio.gitlens. Verification status: Verified.
+2023-03-07 13:47:27.579 [info] Extracted extension to /home/adt/dotfiles/.vscode/extensions/.ad6a89cb-2b01-4fb3-ab8d-fdec237a1c87: eamodio.gitlens
+2023-03-07 13:47:27.591 [info] Renamed to /home/adt/dotfiles/.vscode/extensions/eamodio.gitlens-13.3.2
+2023-03-07 13:47:27.596 [info] Extracting completed. eamodio.gitlens
+2023-03-07 13:47:27.622 [info] Extension installed successfully: eamodio.gitlens
+2023-03-07 13:47:27.663 [info] Marked extension as uninstalled eamodio.gitlens-13.3.1
+2023-03-07 14:31:33.263 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}
