@@ -25,7 +25,7 @@ import Data.Tree
 import qualified Data.Map as M
 
     -- Hooks
-import XMonad.Hooks.DynamicLog (dynamicLogWithPP, wrap, xmobarPP, xmobarColor, shorten, PP(..))
+import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.EwmhDesktops  -- for some fullscreen events, also for xcomposite in obs.
 import XMonad.Hooks.ManageDocks (avoidStruts, docks, manageDocks, ToggleStruts(..))
 import XMonad.Hooks.ManageHelpers (isFullscreen, doFullFloat, doCenterFloat)
@@ -67,6 +67,7 @@ import XMonad.Util.EZConfig (additionalKeysP, mkNamedKeymap)
 import XMonad.Util.Hacks (windowedFullscreenFixEventHook, javaHack, trayerAboveXmobarEventHook, trayAbovePanelEventHook, trayerPaddingXmobarEventHook, trayPaddingXmobarEventHook, trayPaddingEventHook)
 import XMonad.Util.NamedActions
 import XMonad.Util.NamedScratchpad
+import XMonad.Util.NamedWindows (getName)
 import XMonad.Util.Run (runProcessWithInput, safeSpawn, spawnPipe)
 import XMonad.Util.SpawnOnce
 
@@ -82,13 +83,13 @@ import XMonad.Util.SpawnOnce
       -- SolarizedDark
       -- SolarizedLight
       -- TomorrowNight
-import Colors.TomorrowNight
+import Colors.DoomOne
 
 myFont :: String
-myFont = "xft:SauceCodePro Nerd Font Mono:regular:size=7:antialias=true:hinting=true"
+myFont = "xft:SauceCodePro Nerd Font Mono:regular:size=9:antialias=true:hinting=true"
 
 myModMask :: KeyMask
-myModMask = mod4Mask        -- Sets modkey to super/windows key
+myModMask = mod1Mask        -- Sets modkey to super/windows key
 
 myTerminal :: String
 myTerminal = "alacritty"    -- Sets default terminal
@@ -96,12 +97,8 @@ myTerminal = "alacritty"    -- Sets default terminal
 myBrowser :: String
 myBrowser = "firefox"  -- Sets qutebrowser as browser
 
-myEditor :: String
-myEditor = "emacsclient -c -a 'emacs' "  -- Sets emacs as editor
--- myEditor = myTerminal ++ " -e vim "    -- Sets vim as editor
-
 myBorderWidth :: Dimension
-myBorderWidth = 0         -- Sets border width for windows
+myBorderWidth = 0           -- Sets border width for windows
 
 myNormColor :: String       -- Border color of normal windows
 myNormColor   = colorBack   -- This variable is imported from Colors.THEME
@@ -109,29 +106,25 @@ myNormColor   = colorBack   -- This variable is imported from Colors.THEME
 myFocusColor :: String      -- Border color of focused windows
 myFocusColor  = color15     -- This variable is imported from Colors.THEME
 
+mySoundPlayer :: String
+mySoundPlayer = "ffplay -nodisp -autoexit " -- The program that will play system sounds
+
 windowCount :: X (Maybe String)
 windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace . W.current . windowset
 
 myStartupHook :: X ()
 myStartupHook = do
-  spawn "killall conky"   -- kill current conky on each restart
-  spawn "killall trayer"  -- kill current trayer on each restart
-
+  spawnOnce "tint2"
+  spawnOnce "google-drive-ocamlfuse /home/adt/google-drive/"
+  spawnOnce "xinput set-prop 11 'libinput Accel Speed' -0.8"
   spawnOnce "lxsession"
   spawnOnce "picom"
   spawnOnce "nm-applet"
   spawnOnce "volumeicon"
-  spawnOnce "nitrogen --restore &"   -- if you prefer nitrogen to feh
+
+  spawnOnce "nitrogen --restore &"
   setWMName "LG3D"
 
-
-myColorizer :: Window -> Bool -> X (String, String)
-myColorizer = colorRangeFromClassName
-                (0x28,0x2c,0x34) -- lowest inactive bg
-                (0x28,0x2c,0x34) -- highest inactive bg
-                (0xc7,0x92,0xea) -- active bg
-                (0xc0,0xa7,0x9a) -- inactive fg
-                (0x28,0x2c,0x34) -- active fg
 
 --Makes setting the spacingRaw simpler to write. The spacingRaw module adds a configurable amount of space around windows.
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
@@ -149,27 +142,20 @@ tall     = renamed [Replace "tall"]
            $ limitWindows 5
            $ smartBorders
            $ windowNavigation
-           $ addTabs shrinkText myTabTheme
+
            $ subLayout [] (smartBorders Simplest)
            $ mySpacing 0
            $ ResizableTall 1 (3/100) (1/2) []
+floats   = renamed [Replace "floats"]
+           $ smartBorders
+           $ simplestFloat
 threeCol = renamed [Replace "threeCol"]
            $ limitWindows 7
            $ smartBorders
            $ windowNavigation
-           $ addTabs shrinkText myTabTheme
+
            $ subLayout [] (smartBorders Simplest)
            $ ThreeCol 1 (3/100) (1/2)
-
--- setting colors for tabs layout and tabs sublayout.
-myTabTheme = def { fontName            = myFont
-                 , activeColor         = color15
-                 , inactiveColor       = color08
-                 , activeBorderColor   = color15
-                 , inactiveBorderColor = colorBack
-                 , activeTextColor     = colorBack
-                 , inactiveTextColor   = color16
-                 }
 
 -- Theme for showWName which prints current workspace when you change workspaces.
 myShowWNameTheme :: SWNConfig
@@ -184,17 +170,13 @@ myShowWNameTheme = def
 myLayoutHook = avoidStruts
                $ mouseResize
                $ windowArrange
-               $ T.toggleLayouts tall
+               $ T.toggleLayouts floats
                $ mkToggle (NBFULL ?? NOBORDERS ?? EOT) myDefaultLayout
   where
     myDefaultLayout = withBorder myBorderWidth tall
                                            ||| threeCol
 
 myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
-myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1..] -- (,) == \x y -> (x,y)
-
-clickable ws = "<action=xdotool key super+"++show i++">"++ws++"</action>"
-    where i = fromJust $ M.lookup ws myWorkspaceIndices
 
 myManageHook :: XMonad.Query (Data.Monoid.Endo WindowSet)
 myManageHook = composeAll
@@ -215,9 +197,10 @@ myManageHook = composeAll
   , className =? "Yad"             --> doCenterFloat
   , title =? "Oracle VM VirtualBox Manager"   --> doFloat
   , title =? "Order Chain - Market Snapshots" --> doFloat
-  , (className =? "firefox" <&&> resource =? ";Dialog") --> doFloat  -- Float Firefox Dialog
+  , className =? "VirtualBox Manager" --> doShift  ( myWorkspaces !! 4 )
+  , (className =? "firefox" <&&> resource =? "Dialog") --> doFloat  -- Float Firefox Dialog
   , isFullscreen -->  doFullFloat
-  ] 
+  ]
 
 subtitle' ::  String -> ((KeyMask, KeySym), NamedAction)
 subtitle' x = ((0,0), NamedAction $ map toUpper
@@ -233,19 +216,19 @@ showKeybindings x = addName "Show Keybindings" $ io $ do
   hClose h
   return ()
 
+
 myKeys :: XConfig l0 -> [((KeyMask, KeySym), NamedAction)]
 myKeys c =
-  --(subtitle "Custom Keys":) $ mkNamedKeymap c $
   let subKeys str ks = subtitle' str : mkNamedKeymap c ks in
   subKeys "Xmonad Essentials"
   [ ("M-C-r", addName "Recompile XMonad"       $ spawn "xmonad --recompile")
   , ("M-S-r", addName "Restart XMonad"         $ spawn "xmonad --restart")
-  --, ("M-S-q", addName "Quit XMonad"            $ spawn "dm-logout")
+  , ("M-S-q", addName "Quit XMonad"            $ spawn "dm-logout")
   , ("M-S-c", addName "Kill focused window"    $ kill1)
   , ("M-S-a", addName "Kill all windows on WS" $ killAll)
   , ("M-S-<Return>", addName "Run prompt"      $ spawn "dmenu_run")
   , ("M-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)
-  , ("M-/", addName "DTOS Help"                $ spawn "~/.local/bin/dtos-help")]
+  ]
 
   ^++^ subKeys "Switch to workspace"
   [ ("M-1", addName "Switch to workspace 1"    $ (windows $ W.greedyView $ myWorkspaces !! 0))
@@ -341,53 +324,37 @@ myKeys c =
   , ("M-u h", addName "mocp prev"                $ spawn "mocp --previous")
   , ("M-u <Space>", addName "mocp toggle pause"  $ spawn "mocp --toggle-pause")]
 
+
   -- Multimedia Keys
   ^++^ subKeys "Multimedia keys"
-  [ ("<XF86AudioPlay>", addName "mocp play"               $ spawn "mocp --play")
-  , ("<XF86AudioPrev>", addName "mocp next"               $ spawn "mocp --previous")
-  , ("<XF86AudioNext>", addName "mocp prev"               $ spawn "mocp --next")
-  , ("<XF86AudioMute>", addName "Toggle audio mute"       $ spawn "amixer set Master toggle")
-  , ("<XF86AudioLowerVolume>", addName "Lower vol"        $ spawn "amixer set Master 5%- unmute")
-  , ("<XF86AudioRaiseVolume>", addName "Raise vol"        $ spawn "amixer set Master 5%+ unmute")
-  , ("<XF86MonBrightnessUp>", addName "Brightness up"     $ spawn "brightnessctl set 3%+")
-  , ("<XF86MonBrightnessDown>", addName "Brightness down" $ spawn "brightnessctl set 2%-")
+  [ ("<XF86AudioPlay>", addName "mocp play"           $ spawn "mocp --play")
+  , ("<XF86AudioPrev>", addName "mocp next"           $ spawn "mocp --previous")
+  , ("<XF86AudioNext>", addName "mocp prev"           $ spawn "mocp --next")
+  , ("<XF86AudioMute>", addName "Toggle audio mute"   $ spawn "amixer set Master toggle")
+  , ("<XF86AudioLowerVolume>", addName "Lower vol"    $ spawn "amixer set Master 5%- unmute")
+  , ("<XF86AudioRaiseVolume>", addName "Raise vol"    $ spawn "amixer set Master 5%+ unmute")
+  , ("<XF86HomePage>", addName "Open home page"       $ spawn (myBrowser ++ " https://www.youtube.com/c/DistroTube"))
+  , ("<XF86Search>", addName "Web search (dmscripts)" $ spawn "dm-websearch")
+  , ("<XF86Mail>", addName "Email client"             $ runOrRaise "thunderbird" (resource =? "thunderbird"))
+  , ("<XF86Calculator>", addName "Calculator"         $ runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
+  , ("<XF86Eject>", addName "Eject /dev/cdrom"        $ spawn "eject /dev/cdrom")
+  , ("<Print>", addName "Take screenshot (dmscripts)" $ spawn "dm-maim")
   ]
 
 main :: IO ()
 main = do
-  -- Launching three instances of xmobar on their monitors.
-  xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/" ++ colorScheme ++ "-xmobarrc")
+
   -- the xmonad, ya know...what the WM is named after!
-  xmonad $ addDescrKeys' ((mod4Mask, xK_F1), showKeybindings) myKeys $ ewmh $ docks $ def
+  xmonad $ addDescrKeys' ((mod4Mask, xK_F1), showKeybindings) myKeys $ docks . ewmh $ def
     { manageHook         = myManageHook <+> manageDocks
     , handleEventHook    = windowedFullscreenFixEventHook <> swallowEventHook (className =? "Alacritty"  <||> className =? "st-256color" <||> className =? "XTerm") (return True) <> trayerPaddingXmobarEventHook
     , modMask            = myModMask
     , terminal           = myTerminal
     , startupHook        = myStartupHook
     , layoutHook         = showWName' myShowWNameTheme $ myLayoutHook
-    , workspaces         = myWorkspaces
+    , workspaces	 = myWorkspaces
     , borderWidth        = myBorderWidth
     , normalBorderColor  = myNormColor
     , focusedBorderColor = myFocusColor
-    , logHook = dynamicLogWithPP $  filterOutWsPP [scratchpadWorkspaceTag] $ xmobarPP
-        { ppOutput = \x -> hPutStrLn xmproc0 x   -- xmobar on monitor 1
-        , ppCurrent = xmobarColor color06 "" . wrap
-                      ("<box type=Bottom width=2 mb=2 color=" ++ color06 ++ ">") "</box>"
-          -- Visible but not current workspace
-        
-          -- Hidden workspace
-        , ppHidden = xmobarColor color05 "" . wrap
-                     ("<box type=Top width=2 mt=2 color=" ++ color05 ++ ">") "</box>" . clickable
-          -- Hidden workspaces (no windows)
-          -- Title of active window
-        , ppTitle = xmobarColor color16 "" . shorten 60
-          -- Separator character
-        , ppSep =  "<fc=" ++ color09 ++ "> <fn=1>|</fn> </fc>"
-          -- Urgent workspace
-        , ppUrgent = xmobarColor color02 "" . wrap "!" "!"
-          -- Adding # of windows on current workspace to the bar
-        , ppExtras  = [windowCount]
-          -- order of things in xmobar
-        , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
-        }
     }
+
